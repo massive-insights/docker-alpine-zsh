@@ -65,5 +65,19 @@ $ docker-compose build
 $ docker run -ti alpine_zsh
 ```
 
+## Cheat sheet
+
+Stop all Docker containers and remove all Docker instances and images:
+
+```bash
+$ docker stop $(docker ps -a -q); docker rm $(docker ps -a -q); docker rmi $(docker images -a -q) 
+```
+
+Hook into a running Docker container and spawn a shell:
+
+```bash
+$ docker exec -it dockergitit_wiki_1 bash                                                                           
+```
+
 
 
