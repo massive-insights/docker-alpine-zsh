@@ -1,6 +1,6 @@
 # Docker image for ZSH in Alpine Linux 3.7
  
-This is the Git repo of the Docker image for ZSH in [Alpine Linux 3.7](https://alpinelinux.org). It contains a build definition and all supporting files for building an appropriate Docker image. The automated build is available on Docker Hub as [massive-insights/alpine-zsh](https://hub.docker.com/r/massive-insights/alpine-zsh).
+This is the Git repo of the Docker image for ZSH in [Alpine Linux 3.7](https://alpinelinux.org). It contains a build definition and all supporting files for building an appropriate Docker image. The automated build is available on Docker Hub as [minsights/alpine-zsh](https://hub.docker.com/r/minsights/alpine-zsh).
 
 ## What is Alpine Linux?
 
