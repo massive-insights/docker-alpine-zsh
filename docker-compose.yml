@@ -1,0 +1,10 @@
+version: "3.4"
+
+services:
+  shell:
+    build:
+      context: .
+    image: alpine_zsh
+    stdin_open: true
+    tty: true
+
